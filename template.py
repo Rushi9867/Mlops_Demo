@@ -23,7 +23,7 @@ list_of_files = [
     "tests/integration/__init__.py",
     "init_setup.sh",
     "requirements.txt",
-    "requiremets_dev.txt",
+    "requirements_dev.txt",
     "setup.py",
     "setup.cfg",
     "pyproject.toml",

@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-package_name = "=========="
+package_name = "src"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -19,7 +19,9 @@ list_of_files = [
     "{package_name}/pipeline/prediction_pipeline.py",
     "{package_name}/utils/__init__.py",
     "{package_name}/utils/utils.py",
+    "{package_name}/logger/__init__.py",
     "{package_name}/logger/logging.py",
+    "{package_name}/exception/__init__.py",
     "{package_name}/exception/exception.py",
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",

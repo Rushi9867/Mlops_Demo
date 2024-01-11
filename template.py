@@ -4,21 +4,23 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
+package_name = "=========="
+
 list_of_files = [
     ".github/workflows/.gitkeep",
-    "src/__init__.py",
-    "src/components/__init__.py",
-    "src/components/data_ingestion.py",
-    "src/components/data_transformation.py",
-    "src/components/model_trainer.py",
-    "src/components/model_evaluation.py",
-    "src/pipeline/__init__.py",
-    "src/pipeline/training_pipeline.py",
-    "src/pipeline/prediction_pipeline.py",
-    "src/utils/__init__.py",
-    "src/utils/utils.py",
-    "src/logger/logging.py",
-    "src/exception/exception.py",
+    "{package_name}/__init__.py",
+    "{package_name}/components/__init__.py",
+    "{package_name}/components/data_ingestion.py",
+    "{package_name}/components/data_transformation.py",
+    "{package_name}/components/model_trainer.py",
+    "{package_name}/components/model_evaluation.py",
+    "{package_name}/pipeline/__init__.py",
+    "{package_name}/pipeline/training_pipeline.py",
+    "{package_name}/pipeline/prediction_pipeline.py",
+    "{package_name}/utils/__init__.py",
+    "{package_name}/utils/utils.py",
+    "{package_name}/logger/logging.py",
+    "{package_name}/exception/exception.py",
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",
     "init_setup.sh",
